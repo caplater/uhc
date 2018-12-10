@@ -59,9 +59,9 @@ func checkForHamiltonCycle(_ graph: [[Int]])->Bool {
     print("Solution Found!")
     print("A Hamiltonian Cycle:")
     for i in 0..<size {
-        print("\(path[i]) ", terminator:"")
+        print("\(path[i]+1) ", terminator:"")
     }
-    print ("\(path[0])")
+    print ("\(path[0]+1)")
     return true
 }
 
